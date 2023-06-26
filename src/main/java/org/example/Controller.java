@@ -17,6 +17,7 @@ public class Controller {
                     response.write(booking.toString());
                 })
                 .withHttpPort(5555)
+                .withExceptionHandler(new ExceptionHandler())
                 .start();
     }
 
