@@ -1,0 +1,61 @@
+2023-06-29 00:56:06 INFO Starting App using Java 17.0.7 with PID 21078 (/home/asiwiec/IdeaProjects/mindbox/target/classes started by asiwiec in /home/asiwiec/IdeaProjects/mindbox)
+2023-06-29 00:56:06 DEBUG Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-06-29 00:56:06 INFO No active profile set, falling back to 1 default profile: "default"
+2023-06-29 00:56:06 INFO Started App in 1.336 seconds (process running for 1.967)
+2023-06-29 00:56:21 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=10&date=2023-06-03&hour=12
+2023-06-29 00:56:21 DEBUG You cannot make reservation: We don't make reservation for given date: 2023-06-03T12:00
+2023-06-29 00:56:21 WARN Got exception after state is COMPLETE
+2023-06-29 00:56:28 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=10&date=2023-09-03&hour=12
+2023-06-29 00:56:28 DEBUG You cannot make reservation: We don't make reservation for given date: 2023-09-03T12:00
+2023-06-29 00:56:28 WARN Got exception after state is COMPLETE
+2023-06-29 00:56:40 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=10&date=2023-07-33&hour=12
+2023-06-29 00:56:40 DEBUG You got BookingException because of: Invalid localDate format 2023-07-33
+2023-06-29 00:56:49 DEBUG Request is: POST http://localhost:5555/booking?tableSize=10&date=2023-07-33&hour=12
+2023-06-29 00:56:49 DEBUG You got BookingException because of: Invalid localDate format 2023-07-33
+2023-06-29 00:56:49 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:02 DEBUG Request is: POST http://localhost:5555/booking?tableSize=10&date=2023-07-03&hour=12
+2023-06-29 00:57:02 DEBUG You got BookingException because of: Invalid customer Name: null
+2023-06-29 00:57:09 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&date=2023-07-03&hour=12
+2023-06-29 00:57:09 DEBUG You got BookingException because of: Invalid table size: -1
+2023-06-29 00:57:13 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=10&date=2023-07-03
+2023-06-29 00:57:13 DEBUG You got BookingException because of: Invalid reservation time: -1
+2023-06-29 00:57:20 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=10&date=2023-07-03&hour=2
+2023-06-29 00:57:20 DEBUG You got BookingException because of: Invalid reservation time: 2
+2023-06-29 00:57:20 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:28 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=2&date=2023-07-03&hour=12
+2023-06-29 00:57:28 DEBUG You got BookingException because of: Invalid table size: 2
+2023-06-29 00:57:28 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:33 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=26&date=2023-07-03&hour=12
+2023-06-29 00:57:33 DEBUG You got BookingException because of: Invalid table size: 26
+2023-06-29 00:57:33 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:41 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=8&date=2023-07-03&hour=12
+2023-06-29 00:57:41 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=5, tableSize=8]
+2023-06-29 00:57:41 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:45 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=8&date=2023-07-03&hour=12
+2023-06-29 00:57:45 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=4, tableSize=8]
+2023-06-29 00:57:45 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:46 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=8&date=2023-07-03&hour=12
+2023-06-29 00:57:46 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=7, tableSize=10]
+2023-06-29 00:57:46 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:53 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=6&date=2023-07-03&hour=12
+2023-06-29 00:57:53 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=3, tableSize=6]
+2023-06-29 00:57:58 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=6&date=2023-07-03&hour=12
+2023-06-29 00:57:58 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=2, tableSize=6]
+2023-06-29 00:57:58 WARN Got exception after state is COMPLETE
+2023-06-29 00:57:59 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=6&date=2023-07-03&hour=12
+2023-06-29 00:57:59 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=6, tableSize=10]
+2023-06-29 00:58:01 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=6&date=2023-07-03&hour=12
+2023-06-29 00:58:01 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=9, tableSize=12]
+2023-06-29 00:58:01 WARN Got exception after state is COMPLETE
+2023-06-29 00:58:09 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=12&date=2023-07-03&hour=12
+2023-06-29 00:58:09 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=8, tableSize=12]
+2023-06-29 00:58:09 WARN Got exception after state is COMPLETE
+2023-06-29 00:58:10 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=12&date=2023-07-03&hour=12
+2023-06-29 00:58:10 DEBUG You're late, all reservations are taken: No free tables with size 12 found for 2023-07-03T12:00
+2023-06-29 00:58:10 WARN Got exception after state is COMPLETE
+2023-06-29 00:58:17 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=4&date=2023-07-03&hour=12
+2023-06-29 00:58:17 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=1, tableSize=4]
+2023-06-29 00:58:19 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=4&date=2023-07-03&hour=12
+2023-06-29 00:58:19 DEBUG Response is: You got your reservation. Your table is: TableDetails[id=0, tableSize=4]
+2023-06-29 00:58:21 DEBUG Request is: POST http://localhost:5555/booking?customerName=sad&tableSize=4&date=2023-07-03&hour=12
+2023-06-29 00:58:21 DEBUG You're late, all reservations are taken: No free tables with size 4 found for 2023-07-03T12:00
